@@ -4,12 +4,13 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>My Student Portfolio</title>
-     <style>
-         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Arial, sans-serif; scroll-behavior: smooth; }
-    
+	 <style>
+        html { 
+		* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Arial, sans-serif; scroll-behavior: smooth; }
+         
          body { 
              background: linear-gradient(135deg, #f0f2f5 0%, #e9ecef 100%); 
-             line-height: 1.6; 
+             line-height: 1; 
              min-height: 100vh;
          }
   
@@ -54,7 +55,7 @@
              font-size: 28px; 
              letter-spacing: 1px;
          }
-         /*  HOME SECTION */
+         /* home */
          #home { 
              display: flex; 
              flex-direction: column; 
@@ -74,7 +75,7 @@
              max-width: 600px; 
              line-height: 1.8;
          }
-         /*  INFORMATION */
+        /* information */
          .info-container { 
              background: #ffffff; 
              padding: 45px; 
@@ -121,7 +122,7 @@
              text-transform: uppercase;
              letter-spacing: 0.5px;
          }
-         
+         /* gallery */
          .gallery { 
              display: grid; 
              grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
@@ -162,7 +163,7 @@
  <nav>
      <ul>
          <li><a href="#home"> Home</a></li>
-         <li><a href="#information"> Information</a></li>
+         <li><a href="#profile"> Profile</a></li>
          <li><a href="#quizzes"> Quizzes</a></li>
          <li><a href="#performance"> Performance Tasks</a></li>
          <li><a href="#midterm"> Midterm</a></li>
@@ -175,8 +176,8 @@
     <p class="intro">Hello! This is my portfolio contains all my outputs and requirements for this subject. Thank you for viewing my work!</p>
  </section>
  <!--  INFORMATION SECTION -->
- <section id="information">
-     <h2>Student Information</h2>
+ <section id="profile">
+     <h2>Profile</h2>
      <div class="info-container">
          <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
         
